@@ -12,7 +12,7 @@ monerod=myntd
 daemon=127.0.0.1
 
 #Where your going to dump the file that will be published
-html_dir=/var/www/miner.coinmine.network/
+html_dir=/var/www/html/miner.coinmine.network/
 
 # Bound rpc port
 bport=24091
