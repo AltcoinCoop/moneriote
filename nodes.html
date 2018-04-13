@@ -18,15 +18,15 @@ This is called "using a remote node". Essentially, your wallet program connects 
 <h1>Random Nodes!</h1>
 <p>MyntNote runs a <a href="https://github.com/Gingeropolous/moneriote">script<a/> every 30 minutes to  scan the MyntNote network for open nodes. Click the button to get an IP address of a random one!</p>
 <input type="button" id="btnSearch" value="Get Random Node!" onclick="GetValue();" />
-<p>Note that these nodes use port 18089, not the standard 18081.</p>
+<p>Note that these nodes use port 24091.</p>
 <p id="message" >Press The Button!</p>
 <p>There are <span id="numnodes">this many random nodes</span> available</p>
 <br>
 <p> To use with mynt-wallet-cli, just use these commands </p>
 <h3>Windows</h3>
-<p><kbd>mynt-wallet-cli.exe --daemon-address <span id="windows-node-ip">ADDRESS.OF.HOST</span>:18089</kbd></p>
+<p><kbd>mynt-wallet-cli.exe --daemon-address <span id="windows-node-ip">ADDRESS.OF.HOST</span>:24091</kbd></p>
 <h3>Unix-type (ubuntu, MacOS)</h3>
-<p><kbd>./mynt-wallet-cli --daemon-address <span id="unix-node-ip">ADDRESS.OF.HOST</span>:18089</kbd></p>
+<p><kbd>./mynt-wallet-cli --daemon-address <span id="unix-node-ip">ADDRESS.OF.HOST</span>:24091</kbd></p>
 <br>
 <h3>MyntNote GUI</h3>
 <p>To use with the MyntNote GUI, enter the node address here (or the ip address). Be sure to enter the proper port!
