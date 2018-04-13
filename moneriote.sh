@@ -3,7 +3,7 @@
 
 # This is the directory where files are written to.
 # If you run as a cronjob, you have to use the full path
-DIR=/~/moneriote
+DIR=/~/moneriote/serve
 
 # This is the path for your monerod binary.
 monerod=myntd
@@ -26,7 +26,7 @@ echo $daemon
 ###
 
 mkdir $DIR
-cp /home/main12/moneriote/*.html $DIR
+cp /~/moneriote/*.html $DIR
 cd $DIR
 rm open_nodes.txt
 rm nodes.html
@@ -95,6 +95,4 @@ sudo cp nodes.html $html_dir/
 
 # http://stackoverflow.com/questions/16753876/javascript-button-to-pick-random-item-from-array
 # http://www.javascriptkit.com/javatutors/randomorder.shtml
-
-
 
